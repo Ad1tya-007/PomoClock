@@ -1,9 +1,5 @@
-import { Button } from '@/components/ui/button';
+import Pomodoro from '@/components/shared/Pomodoro';
 
 export default function Home() {
-  return (
-    <div>
-      <Button>Click me</Button>
-    </div>
-  );
+  return <Pomodoro />;
 }
